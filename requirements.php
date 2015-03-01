@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Application requirement checker script.
  *
@@ -45,6 +44,7 @@ if (extension_loaded('gd')) {
         $gdMemo = 'GD extension should be installed with FreeType support in order to be used for image CAPTCHA.';
     }
 }
+
 
 /**
  * Adjust requirements according to your application specifics.
